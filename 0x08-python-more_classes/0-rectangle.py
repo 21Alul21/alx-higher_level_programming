@@ -5,4 +5,4 @@ class Rectangle:
     """
     pass
 rectangle = Rectangle()
-print(rectangle.__doc__) 
+
