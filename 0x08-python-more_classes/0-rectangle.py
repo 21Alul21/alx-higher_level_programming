@@ -3,8 +3,6 @@
     defines an empty class.
 """
 class Rectangle:
-    """ this is an empty class
-        that defines a 'rectangle'.
-    """
+    """ this is an empty class. """
     pass
 
