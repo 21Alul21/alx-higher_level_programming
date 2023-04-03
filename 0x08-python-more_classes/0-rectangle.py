@@ -7,6 +7,4 @@ class Rectangle:
         that defines a 'rectangle'.
     """
     pass
-rectangle = Rectangle()
-print(rectangle.__doc__)
 
