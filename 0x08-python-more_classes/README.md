@@ -1,1 +1,1 @@
-more class and objects as we leaen more about object oriented programming (OOP)
+more class and objects in python. 
