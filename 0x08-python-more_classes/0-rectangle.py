@@ -8,5 +8,6 @@ that defines a rectangle.
 """
 
 class Rectangle:
+""" empty """
     pass
  
