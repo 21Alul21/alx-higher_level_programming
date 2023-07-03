@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 module that contains a class that 
 has two instant variables 
