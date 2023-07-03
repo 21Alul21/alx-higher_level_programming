@@ -24,5 +24,15 @@ class Rectangle:
         if self.width < 0:
             raise ValueError("width must be >= 0")
         self.__width = value 
-           
+          
+    @property
+    def height(self):
+        return self.__height
 
+    @height.setter
+    def height(self, value):
+        if not is instance(self.height, int):
+            raise TypeError("width must be an integer")
+        if self.width < 0:
+            raise ValueError("width must be >= 0")
+        self.__width = value
