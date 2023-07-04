@@ -8,20 +8,30 @@ with properties set using the @property and
 """
 
 class Rectangle:
-"""retrieves the rectangle parameters and set it"""
+    """retrieves the rectangle parameters and set it"""
     def __init__(self, width, height):
         self.width = width
         self.height = height
 
     @property
     def width(self):
-    """ retrieves the value """
+        """ 
+
+        method that retrieves the value for the width
+        and and makes it private
+
+        """
         return self.__width
 
     @width.setter
     def width(self, value):
-    """ sets the value """
-        if type(value) != int:
+         """ 
+
+        method that sets the value for the height
+        and and makes it private
+
+        """
+        if not isinstance(self.width, int):
             raise TypeError("width must be an integer")
         if self.width < 0:
             raise ValueError("width must be >= 0")
@@ -29,13 +39,25 @@ class Rectangle:
           
     @property
     def height(self):
-    """ retrieves the value """
+        """ 
+
+        method that retrieves the value for the width
+        and and makes it private
+
+        """
         return self.__height
 
     @height.setter
     def height(self, value):
-        if type(value) != int:
+        """ 
+
+        method that sets the value for the height
+        and and makes it private
+
+        """
+        
+        if not isinstance(self.height, int):
             raise TypeError("width must be an integer")
-        if self.width < 0:
+        if self.height < 0:
             raise ValueError("width must be >= 0")
         self.__height = value
