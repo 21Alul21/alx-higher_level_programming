@@ -8,7 +8,13 @@ with properties set using the @property and
 """
 
 class Rectangle:
-    """retrieves the rectangle parameters and set it"""
+    """
+       retrieves the rectangle
+       parameters and set it
+       to a custom value
+
+    """
+
     def __init__(self, width, height):
         self.width = width
         self.height = height
@@ -25,7 +31,7 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-         """ 
+        """ 
 
         method that sets the value for the height
         and and makes it private

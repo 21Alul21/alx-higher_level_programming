@@ -2,13 +2,19 @@
 """
 
 module that contains an empty class
-"Rectangle"
+Rectangle
 that defines a rectangle.
 
 """
 
+
 class Rectangle:
-""" empty """
+    """
+        this is an empty
+        class that defines a 
+        rectangle
+
+    """
 
     pass
  
