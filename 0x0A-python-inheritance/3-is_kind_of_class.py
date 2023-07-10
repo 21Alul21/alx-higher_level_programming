@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-  
+
 """
 
-  This module contains a function 
+  This module contains a function
   that returns boolean True of
   False is the arguments are of
   the same type

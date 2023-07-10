@@ -14,7 +14,7 @@ def inherits_from(obj, a_class):
        takes two arguments
        and checks it the object is
        an instance of the class
-   
+
 
     """
 
