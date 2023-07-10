@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 
-This module contains a 
+ This module contains a 
  a function that returns the list 
  of available attributes and methods of an object
 
