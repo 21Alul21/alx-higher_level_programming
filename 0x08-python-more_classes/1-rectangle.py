@@ -12,7 +12,7 @@ class Rectangle:
     """
        retrieves the rectangle
        parameters and set it
-       to a custom value
+       to a defined custom value
 
     """
 
@@ -38,7 +38,7 @@ class Rectangle:
         and and makes it private
 
         """
-        if not isinstance(self.width, int):
+        if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if self.width < 0:
             raise ValueError("width must be >= 0")
@@ -63,7 +63,7 @@ class Rectangle:
 
         """
         
-        if not isinstance(self.height, int):
+        if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if self.height < 0:
             raise ValueError("width must be >= 0")
