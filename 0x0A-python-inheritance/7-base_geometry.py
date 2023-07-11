@@ -10,7 +10,6 @@ function with an Exception
 
 class BaseGeometry:
     """ This is the Base Geometry class """
-    pass
 
     def area(self):
         """ method that raises an exception """
