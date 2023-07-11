@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
    This module contains a Class that
-   defines a Square from Rectangle class 
+   defines a Square from Rectangle class
 """
 
 
