@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" This Module contains 
+""" This Module contains
   a function that writes to a text file
 """
 
