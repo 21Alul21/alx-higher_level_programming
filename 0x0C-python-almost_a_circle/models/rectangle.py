@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-""" This  Module contains the  class Rectangle,
+""" 
+this Module contains class Rectangle,
 which is an inheritance of class Base
+
 """
 from models.base import Base
 
 
 class Rectangle(Base):
-    """ Class Rectangle """
+    """ this is the Class Rectangle """
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        """
-        This methos Initializes the  instances
-        """
+        """to Initializes the  instances """
         self.width = width
         self.height = height
         self.x = x
@@ -20,12 +20,12 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        """ this is the  width getter """
+        """ this is the width getter """
         return self.__width
 
     @width.setter
     def width(self, value):
-        """ this is the  width setter """
+        """ this is the width setter """
         if type(value) is not int:
             raise TypeError("width must be an integer")
         if value <= 0:
@@ -34,12 +34,12 @@ class Rectangle(Base):
 
     @property
     def height(self):
-        """ this is the  height getter """
+        """ height getter """
         return self.__height
 
     @height.setter
     def height(self, value):
-        """ this is the  height setter """
+        """ height setter """
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value <= 0:
