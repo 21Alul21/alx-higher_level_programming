@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-this Module test the Square class
-"""
+The Module for test Square class 
 
+"""
 import unittest
 from io import StringIO
 from unittest import TestCase
@@ -13,9 +13,7 @@ from models.base import Base
 
 
 class TestSquareMethods(unittest.TestCase):
-    """ this class is the Suite
-    to test Square class
-    """
+    """ The Suite to test Square class """
 
     def setUp(self):
         """ Method invoked for each test """

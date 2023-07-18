@@ -1,7 +1,8 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 """
-this Module is for
-testing the  Base class
+this is the Module for 
+test Base class 
+
 """
 import unittest
 from models.base import Base
@@ -13,10 +14,10 @@ from unittest.mock import patch
 
 
 class TestBaseMethods(unittest.TestCase):
-    """this class is the Suite to test Base class """
+    """ this is the  Suite to test the  Base class """
 
     def setUp(self):
-        """ Method for each test """
+        """ this Method is invoked for each test """
         Base._Base__nb_objects = 0
 
     def test_id(self):

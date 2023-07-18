@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""
-this Module is used for
-testing the  Rectangle class
+""" this is the Module for test
+Rectangle class 
+
 """
 import unittest
 from io import StringIO
@@ -12,12 +12,10 @@ from models.base import Base
 
 
 class TestRectangleMethods(unittest.TestCase):
-    """this serves as the  Suite
-    to test Rectangle class
-    """
+    """ the  Suite to test Rectangle class """
 
     def setUp(self):
-        """ this Method is invoked for each test """
+        """ Method invoked for each test """
         Base._Base__nb_objects = 0
 
     def test_new_rectangle(self):
