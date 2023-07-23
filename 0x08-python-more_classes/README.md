@@ -1,2 +1,2 @@
-alx project to further learn and
+Alx project to further learn and
 understand OOP in Python
