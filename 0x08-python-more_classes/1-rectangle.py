@@ -4,7 +4,7 @@ module that contains a class that
 has two instant variables 
 with properties set using the @
 property and
-@setter decorators.
+@setter decorators..
 """
 
 
