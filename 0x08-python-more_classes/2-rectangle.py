@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """
-
 contains a class that define a Rectangle
-
 
 """
 
