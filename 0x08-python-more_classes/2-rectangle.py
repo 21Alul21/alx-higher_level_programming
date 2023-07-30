@@ -9,45 +9,35 @@ class Rectangle:
     """ Class that defines a rectangle """
 
     def __init__(self, width, height):
+        
         """ 
-
         Arguments
             width: rectangle width
             height: rectangle height
-
-
         """
-
         self.width = width
         self.height = height
 
     @property
     def width(self):
+        
         """ 
         this method returns the value of the width
-
         Returns rectangle width
-
-
         """
-
         return self.__width
 
     @width.setter
     def width(self, value):
         """
          this is a  method that defines the width
-
         Argsuments are;
             value: width
-
         what to raise:
             TypeError: if width is not an integer
             ValueError: if width is less than zero
 
-
         """
-
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
@@ -57,12 +47,8 @@ class Rectangle:
     @property
     def height(self):
         """ 
-
           this is a method that returns the value of the height
-
         Returns  rectangle height
-
-
         """
 
         return self.__height
@@ -71,15 +57,11 @@ class Rectangle:
     def height(self, value):
         """ 
            defines height
-
         Args:
             value: height
-
         what to raise;
             TypeError: if height is not an integer
             ValueError: if height is less than zero
-
-
         """
 
         if not isinstance(value, int):
@@ -91,11 +73,8 @@ class Rectangle:
     def area(self):
         """
           Method calculates the Rectangle area
-
         Returns:
             rectangle area
-
-
         """
 
         return self.width * self.height
@@ -103,14 +82,10 @@ class Rectangle:
     def perimeter(self):
         """ 
         Method calculates the Rectangle perimeter
-
         Returns:
             rectangle perimeter
-
-
         """
 
         if self.width == 0 or self.height == 0:
             return 0
-
         return (2 * self.width) + (2 * self.height)
