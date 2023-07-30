@@ -100,7 +100,7 @@ class Rectangle:
         
         if (self.width == 0 or self.height == 0):
             return ""
-        else
+        else:
             i = 0
             b = ""
             while (i < self.height):
