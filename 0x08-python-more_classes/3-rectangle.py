@@ -106,4 +106,4 @@ class Rectangle:
             while (i < self.height):
                 i += 1
                 b += ('#' * self.width) + "\n"
-            return b[:-3]
+            return b[:-1]
