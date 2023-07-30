@@ -101,8 +101,9 @@ class Rectangle:
         if (self.width == 0 or self.height == 0):
             return ""
         else
-            i = 1
+            i = 0
             b = ""
             while (i <= self.height):
-                 b += ('#' * self.width) + "\n"
+                i += 1
+                b += ('#' * self.width) + "\n"
             return b[:-3]
