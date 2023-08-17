@@ -1,5 +1,7 @@
-# SQL_introduction
-----
+# INTRODUCTION TO SQL
 
-This directory contains solutions to tasks on **SQL**
-using **MySql** server..
+_____
+
+This repository contains solutions to tasks done during 
+the introduction to sql module, while studying full satck software 
+engineering at **ALX AFRICA**
