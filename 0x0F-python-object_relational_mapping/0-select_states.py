@@ -22,7 +22,7 @@ if __name__ == "__main__":
         result = cur.fetchall()
         
         for line in result:
-            print(result)
+            print(line)
         cur.close()
         conn.close()
 
