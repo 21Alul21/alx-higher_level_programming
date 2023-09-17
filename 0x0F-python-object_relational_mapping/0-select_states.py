@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 this sccript lists all states from the database hbtn_0e_0_usa,     
 the script takes 3 arguments: mysql username, mysql password
@@ -21,4 +20,3 @@ if __name__ == "__main__":
             print(line)
         cur.close()
         conn.close()
-
