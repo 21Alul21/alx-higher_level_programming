@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// Program that counts argument entered at the command line
 const numArgs = process.argv.length -2;
 
 if (numArgs === 0) {
