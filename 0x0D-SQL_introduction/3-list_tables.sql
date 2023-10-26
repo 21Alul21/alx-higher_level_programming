@@ -1,3 +1,2 @@
--- script that lists all the tables of a database in your MySQL server
-
+-- Script to list all tables from database name given by user in shell
 SHOW TABLES;
